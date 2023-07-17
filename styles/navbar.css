@@ -1,19 +1,22 @@
+
+
+
 .nav {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif; /* all families are complicated */
     display: flex; /* flex navigation items in a row */
     justify-content: space-between; /* make breathing space between the items */
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 24px; /* set font size to this value */
 }
 
 .logo-D {
-    margin-right: -5px;
+    margin-right: -5px; /* decrease the space between the logo letters */
 }
 
 .logo-Z {
-    color: #CBDEEC;
+    color: #CBDEEC; /* set the color of the Z letter to this value */
 }
 
 
@@ -25,15 +28,15 @@
 
 .menu-items li {
     margin-right: 10px; /* add some margin between items */
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: normal;
+    text-transform: uppercase; /* whatever is in the button, must be big letters */
+    font-size: 24px; /* set font size to this value */
+    font-weight: normal; /* a fancy way of decreasing the boldness of the letters */
 }
 
 button{
-    font-family: "Inter", sans-serif; /* font family */
+    font-family: "Inter", sans-serif; /* all families are complicated */
     text-transform: uppercase; /* whatever is in the button, must be big letters */
-    font-size: 24px;
+    font-size: 24px; /* set font size to this value */
 }
 
 .button button {
