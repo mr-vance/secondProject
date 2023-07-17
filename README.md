@@ -7,7 +7,9 @@
 
 
 <p align="center">
+<img src="images/oh-dear.webp" alt="God-have-mercy" style="width: 150px; height: 150px;">
   <img src="images/fire-fire.png" alt="God-have-mercy" style="width: 150px; height: 150px;">
+  <img src="images/yessir.webp" alt="God-have-mercy" style="width: 150px; height: 150px;">
 </p>
 
 
