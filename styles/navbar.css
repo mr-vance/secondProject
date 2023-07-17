@@ -1,7 +1,43 @@
 .nav {
+    font-family: "Inter", sans-serif;
     display: flex; /* flex navigation items in a row */
+    justify-content: space-between; /* make breathing space between the items */
 }
 
-.menu-items {
-    display: flex; /* flex menu-items items in a row */
+.logo {
+    font-size: 24px;
 }
+
+.logo-D {
+    margin-right: -5px;
+}
+
+.logo-Z {
+    color: #CBDEEC;
+}
+
+
+.menu-items ul {
+    display: flex; /* set the display to flex */
+    justify-content: space-between; /* make breathing space between the items */
+    list-style: none; /* remove default list styles */
+}
+
+.menu-items li {
+    margin-right: 10px; /* add some margin between items */
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+button{
+    font-family: "Inter", sans-serif; /* font family */
+    text-transform: uppercase; /* whatever is in the button, must be big letters */
+    font-size: 24px;
+}
+
+.button button {
+    padding-left: 20px; /* space between text and left button border */
+    padding-right: 20px; /* space between text and right button border */
+}
+
