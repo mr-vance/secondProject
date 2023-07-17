@@ -1,0 +1,32 @@
+.about-section{
+    display: var(--display);
+    flex-direction: var(--col-flex-direction);
+    justify-content: var(--vertCenter-justify-content);
+    align-items: var(--horizCenter-align-items);
+}
+.about-section img{width: 95%;}
+.aboutus-text {
+    width: 100%;
+    height: 400px;
+    display: var(--display);
+    flex-direction: var(--col-flex-direction);
+    justify-content: var(--vertCenter-justify-content);
+    align-items: var(--horizCenter-align-items);
+}
+.aboutus-text h6, .signup-section h6{
+    font-size: var(--sectionTitle-font-size);
+    font-family: var(--font-family);
+    font-weight: var(--section-font-weight);
+    text-align: var(--textCenter-text-align);
+    margin: 0 0 10px 0;
+    text-transform: var(--text-transform);
+}
+.aboutus-text p{
+    font-family: var(--font-family);
+    text-justify: auto;
+    font-size: var(--linkSize-font-size);
+    width: 90%;
+    margin:var(--marginAuto-margin);
+    padding-top: 30px;
+    line-height: 20px;
+}

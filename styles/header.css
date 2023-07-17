@@ -1,0 +1,39 @@
+header{
+  background-image: url('../images/hero.webp');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 20px;
+}
+header nav{
+  font-family: var(--font-family);
+  height: var(--navHieght-height);
+  display: var(--display);
+  justify-content: var(--colgap-justify-content);
+  align-items: var(--horizCenter-align-items);
+  padding: 20px;
+}
+header nav h6{
+  font-size: var( --sectionTitle-font-size);
+  font-weight: var(--section-font-weight);
+  text-transform: var(--text-transform);
+}
+header nav h6 span{
+  color: var(--blueColor-color);
+}
+
+.menu-links a{
+  font-size: var(--linkSize-font-size);
+  text-transform: var(--text-transform);
+  font-weight: var(--section-font-weight);
+  color: var(--textColor-color);
+  text-decoration: var(--text-decoration);
+}
+header button, .signup-section  button, footer button{
+  font-size: var(--linkSize-font-size);
+  text-transform: var(--text-transform);
+  padding: var(--btnPadding-padding);
+  border: var(--btnBorder-border);
+  background-color: var(--btn-background-color);
+}

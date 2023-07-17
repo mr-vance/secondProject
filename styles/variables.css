@@ -1,0 +1,33 @@
+:root{
+    --font-family: 'Inter', sans-serif;
+    --sectionTitle-font-size: 25px;
+    --section-font-weight: 300;
+    --linkSize-font-size:11px;
+    --text-transform: uppercase; 
+    --text-decoration:none;
+    --display: flex;
+    --colgap-justify-content:space-between;
+    --col-flex-direction: column;
+    --row-flex-direction: row;
+    --vertCenter-justify-content: center;
+    --horizCenter-align-items: center;
+    --navHieght-height: 43px;
+    --btnBorder-border:1px solid #000;
+    --btn-background-color: inherit;
+    --btnPadding-padding:12px 20px;
+    --textCenter-text-align: center;
+    --hero-height:90%;
+    --paraSize-font-size:13px;
+    --line-height: 2px;
+    --line-background-color: #000;
+    --line-width: 80px;
+    --line-margin-top:20px;
+    --section-padding:4rem 0;
+    --secLine-height:1px;
+    --secLine-width:60px;
+    --marginAuto-margin: 0 auto;
+    --img-height:auto;
+    --section-background-color: #f8f8f8;
+    --textColor-color:#000;
+    --blueColor-color:#4aa0de;
+}
