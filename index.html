@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!--head start-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home of drones</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <!--Import Google Inter font-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter">
-
-    <!--Import CSS files-->
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-
-    <title>dronotocz</title>
 </head>
-<!--head end-->
-
-<!--body start-->
 <body>
-    <!--header start-->
     <header>
-        <!--navigation bar start-->
-        <div class="nav">
-
-            <div class="logo">
-                <span class="logo-D">D</span>
-                <span class="logo-Z">Z</span>
+        <nav>
+            <h6>D<span>Z</span></h6>
+            <div class="menu-links">
+                <a href="">About</a>
+                <a href="">Articles</a>
             </div>
-
-            <div class="menu-items">
-                <ul>
-                    <li>about</li>
-                    <li>articles</li>
-                </ul>
-            </div>
-
-            <div class="button">
-                <a href="#"><button>subscribe</button></a>
-            </div>
-
+            <button id='header-btn'>Subscribe</button>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Dronoticz</h1>
+            <p>The era of drones</p>
+            <div id="underline"></div>
         </div>
-        <!--navigation bar end-->
     </header>
-    <!--header end-->
+    <div class="articles-section">
+        <h6>Latest article</h6>
+        <div id="section-line"></div>
+        <div class="article-row">
+            <div class="article-col">
+                <img src="images/drone1.webp" alt="">
+                <p>How to automate servillance drones</p>
+            </div>
+            <div class="article-col">
+                <img src="images/drone2.webp" alt="">
+                <p>Robotics and Artificial Intelligence</p>
+            </div>
+            <div class="article-col">
+                <img src="images/drone4.webp" alt="">
+                <p>Improving Lives through Robotic Prosthetics</p>
+            </div>
+            <div class="article-col">
+                <img src="images/drone6.webp" alt="">
+                <p>Power of Robotics in Agriculture</p>
+            </div>
+        </div>
+    </div>
+    <div class="about-section">
+        <img src="images/drone8.webp" alt="">
+        <div class="aboutus-text">
+            <h6>About us</h6>
+            <div id="section-line"></div>
+            <p>
+                Welcome to our dronoticz, where innovation and technology converge to 
+                shape the future. We revolutionize industries and improve lives worldwide through our passion for pushing the boundaries of what robots can do. With expertise in AI, computer vision, mechanical engineering, and automation, we lead the way in the robotics revolution. Our brilliant team creates intelligent machines that seamlessly integrate into daily life, enhancing productivity, safety, and efficiency.Join us on this exciting journey as we unlock new frontiers, solve complex challenges, and shape a future where intelligent machines work hand-in-hand with humans. 
+                Discover the power of robotics and be part of the revolution.
+           </p>
+        </div>
+    </div>
+    <div class="signup-section">
+        <h6>Subscribe</h6>
+        <p>Sign-up to our newsletter</p>
+        <input type="text" placeholder="Your email">
+        <button>submit</button>
+    </div>
+    <footer>
+        <div class="social-media">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="footer-links">
+            <a href="">About</a>
+            <a href="">Articles</a>
+        </div>
+        <button id='header-btn'>Subscribe</button>
+    </footer>
 </body>
-<!--body end-->
-
 </html>
