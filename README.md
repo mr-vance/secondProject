@@ -7,13 +7,16 @@
 
 
 <p align="center">
-<img src="images/oh-dear.webp" alt="God-have-mercy" style="width: 150px; height: 150px;">
   <img src="images/fire-fire.png" alt="God-have-mercy" style="width: 150px; height: 150px;">
-  <img src="images/yessir.webp" alt="God-have-mercy" style="width: 150px; height: 150px;">
 </p>
 
 
 This assignment builds upon the previous one and incorporates the following guidelines into your code:
+
+## Table of Contents
+- [Assignment Requirements](#assignment-requirements)
+- [Figma Design](#figma-design)
+- [Additional Notes](#additional-notes)
 
 ## Assignment Requirements
 
@@ -24,6 +27,21 @@ This assignment builds upon the previous one and incorporates the following guid
 3. **Flex and Position Properties**: Utilize the flex and position properties in CSS for flexible and responsive layouts.
 
 4. **BEM Naming Convention**: Follow the BEM (Block Element Modifier) naming convention to enhance code readability and modularity.
+
+    ```css
+    // Blocks are named as standard CSS classes
+    .block {
+    }
+    // Elements declared with 2 underscores, after block
+    .block__element {
+    }
+    // Modifiers declared with 2 dashes, after block or after element
+    .block--modifier {
+    }
+    // element and modifier together
+    .block__element--modifier {
+    }
+    ```
 
 5. **File and Folder Structure**: Maintain a well-organized file and folder structure for improved project management.
 
@@ -42,6 +60,3 @@ Please refer to the following link to access the Figma design for this assignmen
 Make sure to carefully review the Figma design and incorporate the required guidelines into your HTML and CSS code. The previous assignment serves as a foundation for this one, and the new requirements aim to enhance the overall quality and maintainability of your code.
 
 If you have any questions or need further clarification, please don't hesitate to reach out for assistance. Good luck with your assignment!
-
-
-

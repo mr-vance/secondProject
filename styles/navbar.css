@@ -1,5 +1,6 @@
 :root {
     /* Define CSS variables */
+    
     --font-family: "Inter", sans-serif; /* all families are complicated */
     --font-size: 24px; /* set font size to this value */
     --logo-color: #CBDEEC; /* set the color of the Z letter to this value */
