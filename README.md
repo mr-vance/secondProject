@@ -29,16 +29,16 @@ This assignment builds upon the previous one and incorporates the following guid
 4. **BEM Naming Convention**: Follow the BEM (Block Element Modifier) naming convention to enhance code readability and modularity.
 
     ```css
-    /*Blocks are named as standard CSS classes*/
+    /* Blocks are named as standard CSS classes */
     .block {
     }
-    // Elements declared with 2 underscores, after block
+    /* Elements declared with 2 underscores, after block */
     .block__element {
     }
-    // Modifiers declared with 2 dashes, after block or after element
+    /* Modifiers declared with 2 dashes, after block or after element */
     .block--modifier {
     }
-    // element and modifier together
+    /* element and modifier together */
     .block__element--modifier {
     }
     ```
