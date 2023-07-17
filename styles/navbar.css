@@ -1,0 +1,7 @@
+.nav {
+    display: flex; /* flex navigation items in a row */
+}
+
+.menu-items {
+    display: flex; /* flex menu-items items in a row */
+}
