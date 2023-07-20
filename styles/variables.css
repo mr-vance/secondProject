@@ -1,5 +1,5 @@
 :root{
-    --font-family: 'Inter', sans-serif;
+    --font-family: 'Inter', sans-serif; /* used 9 times */
     --sectionTitle-font-size: 25px; /* used 4 times */
     --section-font-weight: 300; /* used 5 times */
     --linkSize-font-size:11px; /* used 4 times */
