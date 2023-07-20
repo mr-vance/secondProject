@@ -5,7 +5,7 @@
     align-items: var(--centerHorizontally);
 }
 .about-section img{width: 95%;}
-.aboutus-text {
+.about-section__text {
     width: 100%;
     height: 400px;
     display: var(--makeFlexBox);
@@ -13,7 +13,7 @@
     justify-content: var(--centerVertically);
     align-items: var(--centerHorizontally);
 }
-.aboutus-text h6, .signup-section h6{
+.about-section__text h6, .signup-section h6{
     font-size: var(----sizeOfSectionTitleFont);
     font-family: var(--fontFamilia);
     font-weight: var(--weightOfSectionFont);
@@ -21,7 +21,7 @@
     margin: 0 0 10px 0;
     text-transform: var(--textCapitalize);
 }
-.aboutus-text p{
+.about-section__text p{
     font-family: var(--fontFamilia);
     text-justify: auto;
     font-size: var(--sizeOfLinkFont);

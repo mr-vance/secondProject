@@ -5,13 +5,13 @@ footer{
     justify-content: center;
     align-items: var(--centerHorizontally);
 }
-footer .social-media i{
+footer .footer__socials i{
     font-size: var(----sizeOfSectionTitleFont);
     margin-left: 16px;
     color: var(--fontColoredBlue);
 }
-.footer-links{margin:2rem 0;}
-.footer-links a{
+.footer__links{margin:2rem 0;}
+.footer__links a{
     font-family:var(--fontFamilia);
     display: block;
     color:var(--fontColor);

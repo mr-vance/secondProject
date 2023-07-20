@@ -1,5 +1,7 @@
+/* import reset css first */
 @import url("styles/reset.css");
 
+/* then everyone else... */
 @import url("styles/about.css");
 @import url("styles/articles.css");
 @import url("styles/footer.css");
