@@ -38,9 +38,6 @@ This assignment builds upon the previous one and incorporates the following guid
     /* Modifiers declared with 2 dashes, after block or after element */
     .block--modifier {
     }
-    /* element and modifier together */
-    .block__element--modifier {
-    }
     ```
 
 5. **File and Folder Structure**: Maintain a well-organized file and folder structure for improved project management.
