@@ -8,7 +8,7 @@ header{
 }
 header nav{
   font-family: var(--font-family);
-  height: var(--navHieght-height);
+  height: 43px;
   display: var(--display);
   justify-content: var(--colgap-justify-content);
   align-items: var(--horizCenter-align-items);
@@ -28,12 +28,12 @@ header nav h6 span{
   text-transform: var(--text-transform);
   font-weight: var(--section-font-weight);
   color: var(--textColor-color);
-  text-decoration: var(--text-decoration);
+  text-decoration: none;
 }
 header button, .signup-section  button, footer button{
   font-size: var(--linkSize-font-size);
   text-transform: var(--text-transform);
-  padding: var(--btnPadding-padding);
-  border: var(--btnBorder-border);
-  background-color: var(--btn-background-color);
+  padding: 12px 20px;
+  border: 1px solid #000;
+  background-color: inherit;
 }

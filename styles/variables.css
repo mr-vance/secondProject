@@ -1,33 +1,19 @@
 :root{
     --font-family: 'Inter', sans-serif;
-    --sectionTitle-font-size: 25px;
-    --section-font-weight: 300;
-    --linkSize-font-size:11px;
-    --text-transform: uppercase; 
-    --text-decoration:none;
-    --display: flex;
-    --colgap-justify-content:space-between;
-    --col-flex-direction: column;
-    --row-flex-direction: row;
-    --vertCenter-justify-content: center;
-    --horizCenter-align-items: center;
-    --navHieght-height: 43px;
-    --btnBorder-border:1px solid #000;
-    --btn-background-color: inherit;
-    --btnPadding-padding:12px 20px;
-    --textCenter-text-align: center;
-    --hero-height:90%;
-    --paraSize-font-size:13px;
-    --line-height: 2px;
-    --line-background-color: #000;
-    --line-width: 80px;
-    --line-margin-top:20px;
-    --section-padding:4rem 0;
-    --secLine-height:1px;
-    --secLine-width:60px;
-    --marginAuto-margin: 0 auto;
-    --img-height:auto;
-    --section-background-color: #f8f8f8;
-    --textColor-color:#000;
-    --blueColor-color:#4aa0de;
+    --sectionTitle-font-size: 25px; /* used 4 times */
+    --section-font-weight: 300; /* used 5 times */
+    --linkSize-font-size:11px; /* used 4 times */
+    --text-transform: uppercase; /* used 7 times */
+    --display: flex; /* used 7 times */
+    --colgap-justify-content:space-between; /* used 2 times */
+    --col-flex-direction: column; /* used 6 times */
+    --row-flex-direction: row; /* used 2 times */
+    --vertCenter-justify-content: center; /* used 4 times */
+    --horizCenter-align-items: center; /* used 7 times */
+    --textCenter-text-align: center; /* used 6 times */
+    --line-background-color: #000; /* used 2 times */
+    --section-padding:4rem 0; /* used 2 times */
+    --marginAuto-margin: 0 auto; /* used 2 times */
+    --textColor-color:#000; /* used 2 times */
+    --blueColor-color:#4aa0de; /* used 2 times */
 }

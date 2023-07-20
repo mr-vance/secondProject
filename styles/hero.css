@@ -5,7 +5,7 @@
     flex-direction: var(--col-flex-direction);
     text-align:var(--textCenter-text-align);
     font-family: var(--font-family);
-    height: var(--hero-height);
+    height: 90%;
 }
 .hero-text-box h1{
     text-transform: var(--text-transform);
@@ -16,11 +16,11 @@
 }
 .hero-text-box p{
     text-transform: var(--text-transform);
-    font-size: var(--paraSize-font-size)
+    font-size: 13px;
 }
 #underline{
-    width: var(--line-width);
-    height:var(--line-height);
-    margin-top: var(--line-margin-top);
+    width: 80px;
+    height:2px;
+    margin-top: 20px;
     background-color: var(--line-background-color)
 }

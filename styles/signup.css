@@ -4,7 +4,7 @@
     display: var(--display);
     flex-direction: var(--col-flex-direction);
     align-items: var(--horizCenter-align-items);
-    background-color:var(--section-background-color);
+    background-color:#f8f8f8;
 }
 
 .signup-section p{

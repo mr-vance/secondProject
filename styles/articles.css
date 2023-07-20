@@ -11,8 +11,8 @@
     margin-bottom: 10px;
 }
 #section-line{
-    height: var(--secLine-height);
-    width:var(--secLine-width);
+    height: 1px;
+    width:60px;
     margin:var(--marginAuto-margin);
     background-color:var(--line-background-color);
 }
@@ -32,7 +32,7 @@
 }
 .article-col img{
     width: 100%;
-    height: var(--img-height);
+    height: auto;
 }
 .article-col p{
     font-size: 15px;
