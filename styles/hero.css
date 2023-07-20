@@ -1,26 +1,26 @@
 .hero-text-box{
-    display: var(--display);
-    align-items:var(--horizCenter-align-items);
-    justify-content: var(--vertCenter-justify-content);
-    flex-direction: var(--col-flex-direction);
-    text-align:var(--textCenter-text-align);
-    font-family: var(--font-family);
+    display: var(--makeFlexBox);
+    align-items:var(--centerHorizontally);
+    justify-content: var(--centerVertically);
+    flex-direction: var(--makeColumns);
+    text-align:var(--centerText);
+    font-family: var(--fontFamilia);
     height: 90%;
 }
 .hero-text-box h1{
-    text-transform: var(--text-transform);
+    text-transform: var(--textCapitalize);
     font-size:40px;
     line-height: 40px; 
     font-weight: 400;
     margin-bottom: 5px;
 }
 .hero-text-box p{
-    text-transform: var(--text-transform);
+    text-transform: var(--textCapitalize);
     font-size: 13px;
 }
 #underline{
     width: 80px;
     height:2px;
     margin-top: 20px;
-    background-color: var(--line-background-color)
+    background-color: var(--lineColor)
 }

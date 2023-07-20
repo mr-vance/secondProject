@@ -1,32 +1,32 @@
 .about-section{
-    display: var(--display);
-    flex-direction: var(--col-flex-direction);
-    justify-content: var(--vertCenter-justify-content);
-    align-items: var(--horizCenter-align-items);
+    display: var(--makeFlexBox);
+    flex-direction: var(--makeColumns);
+    justify-content: var(--centerVertically);
+    align-items: var(--centerHorizontally);
 }
 .about-section img{width: 95%;}
 .aboutus-text {
     width: 100%;
     height: 400px;
-    display: var(--display);
-    flex-direction: var(--col-flex-direction);
-    justify-content: var(--vertCenter-justify-content);
-    align-items: var(--horizCenter-align-items);
+    display: var(--makeFlexBox);
+    flex-direction: var(--makeColumns);
+    justify-content: var(--centerVertically);
+    align-items: var(--centerHorizontally);
 }
 .aboutus-text h6, .signup-section h6{
-    font-size: var(--sectionTitle-font-size);
-    font-family: var(--font-family);
-    font-weight: var(--section-font-weight);
-    text-align: var(--textCenter-text-align);
+    font-size: var(----sizeOfSectionTitleFont);
+    font-family: var(--fontFamilia);
+    font-weight: var(--weightOfSectionFont);
+    text-align: var(--centerText);
     margin: 0 0 10px 0;
-    text-transform: var(--text-transform);
+    text-transform: var(--textCapitalize);
 }
 .aboutus-text p{
-    font-family: var(--font-family);
+    font-family: var(--fontFamilia);
     text-justify: auto;
-    font-size: var(--linkSize-font-size);
+    font-size: var(--sizeOfLinkFont);
     width: 90%;
-    margin:var(--marginAuto-margin);
+    margin:var(--autoMarginalize);
     padding-top: 30px;
     line-height: 20px;
 }

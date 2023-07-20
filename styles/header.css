@@ -7,32 +7,32 @@ header{
   margin-bottom: 20px;
 }
 header nav{
-  font-family: var(--font-family);
+  font-family: var(--fontFamilia);
   height: 43px;
-  display: var(--display);
-  justify-content: var(--colgap-justify-content);
-  align-items: var(--horizCenter-align-items);
+  display: var(--makeFlexBox);
+  justify-content: var(--breathingSpace);
+  align-items: var(--centerHorizontally);
   padding: 20px;
 }
 header nav h6{
-  font-size: var( --sectionTitle-font-size);
-  font-weight: var(--section-font-weight);
-  text-transform: var(--text-transform);
+  font-size: var( ----sizeOfSectionTitleFont);
+  font-weight: var(--weightOfSectionFont);
+  text-transform: var(--textCapitalize);
 }
 header nav h6 span{
-  color: var(--blueColor-color);
+  color: var(--fontColoredBlue);
 }
 
 .menu-links a{
-  font-size: var(--linkSize-font-size);
-  text-transform: var(--text-transform);
-  font-weight: var(--section-font-weight);
-  color: var(--textColor-color);
+  font-size: var(--sizeOfLinkFont);
+  text-transform: var(--textCapitalize);
+  font-weight: var(--weightOfSectionFont);
+  color: var(--fontColor);
   text-decoration: none;
 }
 header button, .signup-section  button, footer button{
-  font-size: var(--linkSize-font-size);
-  text-transform: var(--text-transform);
+  font-size: var(--sizeOfLinkFont);
+  text-transform: var(--textCapitalize);
   padding: 12px 20px;
   border: 1px solid #000;
   background-color: inherit;

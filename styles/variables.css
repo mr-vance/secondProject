@@ -1,19 +1,19 @@
 :root{
-    --font-family: 'Inter', sans-serif; /* used 9 times */
-    --sectionTitle-font-size: 25px; /* used 4 times */
-    --section-font-weight: 300; /* used 5 times */
-    --linkSize-font-size:11px; /* used 4 times */
-    --text-transform: uppercase; /* used 7 times */
-    --display: flex; /* used 7 times */
-    --colgap-justify-content:space-between; /* used 2 times */
-    --col-flex-direction: column; /* used 6 times */
-    --row-flex-direction: row; /* used 2 times */
-    --vertCenter-justify-content: center; /* used 4 times */
-    --horizCenter-align-items: center; /* used 7 times */
-    --textCenter-text-align: center; /* used 6 times */
-    --line-background-color: #000; /* used 2 times */
-    --section-padding:4rem 0; /* used 2 times */
-    --marginAuto-margin: 0 auto; /* used 2 times */
-    --textColor-color:#000; /* used 2 times */
-    --blueColor-color:#4aa0de; /* used 2 times */
+    --fontFamilia: 'Inter', sans-serif;
+    ----sizeOfSectionTitleFont: 25px;
+    --weightOfSectionFont: 300;
+    --sizeOfLinkFont:11px;
+    --textCapitalize: uppercase; 
+    --makeFlexBox: flex;
+    --breathingSpace:space-between;
+    --makeColumns: column;
+    --makeRows: row;
+    --centerVertically: center;
+    --centerHorizontally: center;
+    --centerText: center;
+    --lineColor: #000;
+    --sectionPadding:4rem 0;
+    --autoMarginalize: 0 auto;
+    --fontColor:#000;
+    --fontColoredBlue:#4aa0de;
 }

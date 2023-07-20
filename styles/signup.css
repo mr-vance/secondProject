@@ -1,21 +1,21 @@
 .signup-section{
-    padding: var(--section-padding);
-    text-align: var(--textCenter-text-align);
-    display: var(--display);
-    flex-direction: var(--col-flex-direction);
-    align-items: var(--horizCenter-align-items);
+    padding: var(--sectionPadding);
+    text-align: var(--centerText);
+    display: var(--makeFlexBox);
+    flex-direction: var(--makeColumns);
+    align-items: var(--centerHorizontally);
     background-color:#f8f8f8;
 }
 
 .signup-section p{
-    font-family: var(--font-family);
-    font-size: var(--linkSize-font-size);
+    font-family: var(--fontFamilia);
+    font-size: var(--sizeOfLinkFont);
     margin-top: 2rem;
 }
 .signup-section input{
     padding: 16px;
     width: 80%;
-    font-family: var(--font-family);
+    font-family: var(--fontFamilia);
     border:none;
     background-color: #fff;
     margin-top: 1rem;

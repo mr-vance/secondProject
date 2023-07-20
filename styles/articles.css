@@ -1,32 +1,32 @@
 .articles-section{
-    padding:var(--section-padding);
+    padding:var(--sectionPadding);
     background-color: #f8f8f8;
 }
 .articles-section h6{
-    font-family: var(--font-family);
-    text-align: var(--textCenter-text-align);
+    font-family: var(--fontFamilia);
+    text-align: var(--centerText);
     text-transform: uppercase;
-    font-size: var(--sectionTitle-font-size);
-    font-weight:var(--section-font-weight);
+    font-size: var(----sizeOfSectionTitleFont);
+    font-weight:var(--weightOfSectionFont);
     margin-bottom: 10px;
 }
 #section-line{
     height: 1px;
     width:60px;
-    margin:var(--marginAuto-margin);
-    background-color:var(--line-background-color);
+    margin:var(--autoMarginalize);
+    background-color:var(--lineColor);
 }
 .article-row{
-    display: var(--display);
-    flex-direction: var(--col-flex-direction);
+    display: var(--makeFlexBox);
+    flex-direction: var(--makeColumns);
     flex-wrap: nowrap;
     margin: 30px 0 0 0;
     justify-content: none;
-    align-items: var(--horizCenter-align-items);
+    align-items: var(--centerHorizontally);
 }
 .article-col{
     width:95%;
-    text-align: var(--textCenter-text-align);
+    text-align: var(--centerText);
     background-color: #fff;
     margin: 30px 0 0 0;
 }
@@ -36,7 +36,7 @@
 }
 .article-col p{
     font-size: 15px;
-    font-family: var(--font-family);
+    font-family: var(--fontFamilia);
     width: 65%;
     margin: 0 auto;
     padding:70px 0;
